@@ -40,7 +40,7 @@
     <header class="sticky top-0 z-50 bg-white/80 backdrop-blur border-b border-slate-200">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex items-center justify-between h-20">
-                <a href="#home" class="flex items-center gap-3 group">
+                <a href="{% url 'index' %}" class="flex items-center gap-3 group">
                     <div
                         class="h-9 w-9 rounded-md bg-blue-100 flex items-center justify-center ring-1 ring-blue-300 group-hover:bg-pink-500 group-hover:text-white group-hover:ring-pink-500 transition">
                         <span class="text-blue-600 font-extrabold group-hover:text-white">PSC</span>
@@ -56,13 +56,13 @@
                 </a>
 
                 <nav class="hidden md:flex items-center gap-6">
-                    <a href="#home" class="nav-link">Home</a>
-                    <a href="#about" class="nav-link">About</a>
-                    <a href="#values" class="nav-link">Core Values</a>
-                    <a href="#areas" class="nav-link">Areas of Interest</a>
-                    <a href="#why" class="nav-link">Why Us</a>
-                    <a href="#leadership" class="nav-link">Leadership</a>
-                    <a href="#contact" class="nav-link">Contact</a>
+                    <a href="{% url 'index' %}" class="nav-link">Home</a>
+                    <a href="{% url 'about' %}" class="nav-link">About</a>
+                    <a href="{% url 'core_values' %}" class="nav-link">Core Values</a>
+                    <a href="{% url 'areas_of_interests' %}" class="nav-link">Areas of Interest</a>
+                    <a href="{% url 'why_us' %}" class="nav-link">Why Us</a>
+                    <a href="{% url 'about' %}" class="nav-link">Leadership</a>
+                    <a href="{% url 'contact' %}" class="nav-link">Contact</a>
                 </nav>
                 <button id="mobile-open"
                     class="md:hidden inline-flex items-center justify-center rounded-md p-2 text-slate-600 hover:bg-slate-100 focus:outline-none focus:ring-2 focus:ring-brand">
@@ -78,13 +78,13 @@
         <!-- Mobile Menu -->
         <div id="mobile-menu" class="md:hidden hidden border-t border-slate-200 bg-white">
             <div class="px-4 py-3 grid grid-cols-1 gap-3">
-                <a href="#home" class="nav-link">Home</a>
-                <a href="#about" class="nav-link">About</a>
-                <a href="#values" class="nav-link">Core Values</a>
-                <a href="#areas" class="nav-link">Areas of Interest</a>
-                <a href="#why" class="nav-link">Why Us</a>
-                <a href="#leadership" class="nav-link">Leadership</a>
-                <a href="#contact" class="nav-link">Contact</a>
+                <a href="{% url 'index' %}" class="nav-link">Home</a>
+                <a href="{% url 'about' %}" class="nav-link">About</a>
+                <a href="{% url 'core_values' %}" class="nav-link">Core Values</a>
+                <a href="{% url 'areas_of_interests' %}" class="nav-link">Areas of Interest</a>
+                <a href="{% url 'why_us' %}" class="nav-link">Why Us</a>
+                <a href="{% url 'about' %}" class="nav-link">Leadership</a>
+                <a href="{% url 'contact' %}" class="nav-link">Contact</a>
             </div>
         </div>
     </header>
