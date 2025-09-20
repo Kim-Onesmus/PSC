@@ -8,4 +8,5 @@ urlpatterns = [
     path('areas_of_interests', views.AreasofInterests, name='areas_of_interests'),
     path('why_us', views.WhyUs, name='why_us'),
     path('contact', views.Contact, name='contact'),
+    path('leadership', views.Leadership, name='leadership'),
 ]

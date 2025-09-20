@@ -17,6 +17,8 @@ def AreasofInterests(request):
 def WhyUs(request):
     return render(request, 'app/why_us.html')
 
+def Leadership(request):
+    return render(request, 'app/leadership.html')
 
 def Contact(request):
     return render(request, 'app/contact.html')
